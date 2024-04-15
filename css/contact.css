@@ -1,0 +1,139 @@
+h1 
+{
+margin:10px 80px 80px 80px;
+}
+img-container
+{
+	float:left;
+	width:3%;
+	padding:5px;
+}
+a:link{
+	background-color:none;
+}
+a:visited{
+	background-color:none;
+}
+a:hover{
+	background-color:white;
+}
+a:active{
+	background-color:pink;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+  background-color: green;
+}
+ul
+{
+	padding: 10px;
+  width: 100%;
+	overflow:hidden;
+	background-color: orange;
+	text-transform: uppercase;
+	text-indent: 10px;
+	font-family:none;
+	font-style: italic;
+	font-size:20px;
+	list-style-image:none;
+	list-style-type:none;
+  justify-content: space-around;
+  display: flex;
+}
+h2{
+  text-align: center;
+  color: yellowgreen;
+  margin-top: 20px;
+}
+li{
+	float: left; 
+}
+li a {
+	display: inline-block;
+	color:#333;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: whites;
+}
+li a:active {
+	background-color:none;
+}
+#gallery {
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#gallery img {
+  border-radius: 4px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform .75s;
+}
+
+#gallery img:hover {
+  transform: translateY(-20px);
+}
+.about-links { 
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.about-links .btn {
+  display: flex;
+  padding: 5px;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #1c1d1b;
+  width: fit-content;
+  transition: all 1s;
+  align-items: center;
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 14px;
+  border: 1px solid #aaaaa1;
+  background-color: #aaaaa144;
+  box-shadow: 0 2px 5px #0003;
+  justify-content: space-between;
+}
+
+.about-links .btn:hover {
+  transform: translateY(-20px);
+  background-color: #aaaaa1 ;
+  box-shadow: 0 12px 5px #0003;
+}
+.preview {
+  display: none;
+}
+
+.about-links .btn:hover .preview {
+  display: inline;
+}
+
+.about-links .btn:hover .view {
+  display: none;
+}
+.ico {
+  width: 70px;
+  height: 70px;
+}
+  
+.contact-form {
+    padding: 10px;
+    position: relative;
+    left: 0px;
+    font-size: 90%;
+	  margin:0px 280px 0px 600px;
+    background-color: silver
+}
+.contact-form p{
+  margin: 10px 0;
+}

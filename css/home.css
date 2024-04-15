@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  .welcome{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+  }
+  
+  /* Style the navigation */
+  nav {
+    background-color:orange;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    display: inline-block;
+
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+  }
+  
+  /* Style the images in the navigation */
+  ul li a img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Style the main heading */
+  h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+  }
+  
+  /* Style the ordered list */
+  ol {
+    width: 430px;
+    background-color: green;
+    margin: 10px;
+    
+    
+  }
+  
+  ol li {
+    margin-bottom: 10px;
+    background-color: yellow;
+    font-size: x-large;
+   
+  }
+  
+  ol li a {
+    color: #333;
+    text-decoration: underline;
+    
+  }
+  
+  /* Style the copyright section */
+  footer {
+    background-color: black;
+    color: #fff;
+    float: bottom;
+    clear: both;
+    text-align: center;
+    margin: 0 0 10px 10px;
+    padding: 10px;
+  }

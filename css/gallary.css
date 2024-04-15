@@ -1,0 +1,50 @@
+/* mytest.css */
+
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+  }
+  
+  /* Style the navigation */
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color:orange;
+    padding: 10px;
+}
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+  }
+  
+  /* Style the images in the navigation */
+  ul li a img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-right: 10px;
+  }
+  h2 {
+    text-align: center;
+    color: green;
+    margin: 0 50px;
+  }  
+ 
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+figcaption {
+    font-size: 24px;
+    color: #f00;
+    text-align: center;
+  }

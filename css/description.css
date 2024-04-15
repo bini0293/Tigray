@@ -1,0 +1,85 @@
+/* description.css */
+
+/* Reset default margin and padding for the entire document */
+body, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: gold;
+  }
+ 
+  #animate {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @-webkit-keyframes example{
+    from {left:0px;}
+    to {left:300px;}
+  }
+  @keyframes example{
+    from {left:0px;}
+    to {left:300px;}
+
+  }
+  /* Style the unordered list */
+  ul {
+    display: flex;
+    justify-content: space-around;
+    background-color:orange;
+    padding: 10px;
+  }
+  
+  /* Style the list items */
+  li {
+    list-style-type: none;
+  }
+  
+  /* Style the anchor tags within the list items */
+  a.list {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Style the images within the anchor tags */
+  a.list img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Style the heading */
+  h2 {
+    margin-top: 20px;
+    color: green;
+    font-size: xx-large;
+  }
+  h1 {
+    margin-top: 20px;
+    color: purple;
+    font-size: xx-large;
+  }
+  pre{
+    text-align: left;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  pre h1{
+    margin-left: 50px;
+    color: red;
+  }
+  /* Style the image container */
+  .img-container {
+    margin-top: 20px;
+  }
+  
+  /* Set a maximum width for the image within the container */
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+  }
